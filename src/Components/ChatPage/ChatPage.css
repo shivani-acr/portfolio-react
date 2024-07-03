@@ -1,0 +1,74 @@
+.main{
+    min-height: calc(100vh-14rem);
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin:3rem 6rem;
+    /* background-color: rgb(29, 28, 28); */
+}
+img{
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+}
+
+.chats{
+    overflow: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    /* width: 100%; */
+    max-width: 60rem;
+    height:calc(100vh-17rem) ;
+}
+.chat{
+    margin: 1rem;
+    padding: 1rem;
+    font-size:0.7rem;
+    align-items: center;
+    align-items: flex-start;
+    text-align: justify;
+    /* background-color: rgb(187, 188, 208); */
+    border-radius: 0.5rem;
+}
+.bot{
+   background-color: rgba(28,30,58,1); 
+   width: fit-content;
+   border-radius: 0.5rem;
+}
+.align{
+    text-align: right;
+}
+.chatFooter{
+    margin: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.inp{
+    padding: 0.5rem;
+    background: rgba(28,30,58,1); 
+    display: flex;
+    align-items: center;
+    border-radius: 0.5rem;
+    
+}
+.inp input{
+    width: 70vw;
+    outline:none;
+    padding: 1.25rem;
+    color: white;
+    
+
+} 
+ .inp input,.send{
+    background: transparent;
+    border: none;
+}
+.send{
+    cursor: pointer;
+} 
+.chatFooter>p{
+    margin: 10px 0rem;
+    font-size: xx-small;
+}
